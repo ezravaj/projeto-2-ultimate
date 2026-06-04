@@ -1,0 +1,76 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+
+header{text-align: center;
+    position: relative;
+    top: 120px;
+
+}
+
+.container {
+    background-color: aliceblue;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+    left: 520px;
+    top: 125px;
+    overflow-x: hidden;
+    
+    
+
+}
+.container div {
+    border-bottom: 2px solid gray;
+    height: 150px;
+    
+
+    }
+
+
+
+.nome  {
+    position: relative;
+    left: 120px;
+    flex-wrap: wrap;
+    color: rgb(152, 185, 174);
+    font-size: 30px;
+    top: 10px;
+    
+}
+p { position: relative;
+    left: 120px;
+    color: gray;
+    bottom: 130px;
+
+}
+
+.imagens {
+    border-radius: 50%;
+   width: 100px;
+   position: relative;
+   bottom: 50px;
+   
+}
+
+a:link {
+    text-decoration: none;
+
+}
+a:hover {
+    background-color: rgb(183, 186, 186);
+    
+    background-image: url(imagens/edit.png), url(imagens/delete.png);
+    
+    background-repeat:no-repeat;
+    background-position: top right, top  right 25px;
+    
+}
+
+
